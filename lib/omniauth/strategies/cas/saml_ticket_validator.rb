@@ -1,6 +1,7 @@
 require 'net/http'
 require 'net/https'
 require 'nokogiri'
+require 'securerandom'
 
 module OmniAuth
   module Strategies
